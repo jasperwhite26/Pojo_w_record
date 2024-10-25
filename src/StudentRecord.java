@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public record StudentRecord() {
+public record StudentRecord(String StudentId, String firstName, String lastname, int age, String major) {
+
 }
